@@ -9,7 +9,7 @@ public class Nodearray {
 	}
 	
 	public void IndexNodes () throws IOException {
-		nodes = Reader.Read("D:\\eclipse\\tvb11\\src\\tvb11\\decision-tree-data.txt");
+		nodes = Reader.Read("\\decision-tree-data.txt");
 	}
 	
 	public Node FirstQuestion () {
